@@ -1,1 +1,6 @@
-# Country-Search-Socket-Program
+# Country Search Socket Program
+
+This application prompts the user to input a country and checks whether or not the country exists in the world. Since there are 249 countries in the world (both independent and dependent countries), most people are not familiar with countries that they've heard of before. That’s why this application has two novel features, one of which showcases the countries’ continent/sub-region, and the other being the country's code. This would help the users understand where the countries are located in the world, and the codes that has been assigned to. 
+
+## Setup Instructions
+First, run the server-side code located in the 'Server' subfolder. Once that is running and searching for socket connections, run the client-side code and it will connect with the server. Once the connection is established, it will prompt the user to enter a country. The server will search its local dataset and will output the continent, sub-region, and country code on the client side. The server also identifies fake countries, and will return an error statement. The client's IP address and port numbers are also stored in the Server terminal, whenever a client (or multiple clients) connect with the server.
